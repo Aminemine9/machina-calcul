@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+</head>
+<body>
+    <input type="text" id="result" readonly>
+    <br>
+    <button onclick="handleNumber(1)">1</button>
+    <button onclick="handleNumber(2)">2</button>
+    <button onclick="handleNumber(3)">3</button>
+    <br>
+    <button onclick="handleNumber(4)">4</button>
+    <button onclick="handleNumber(5)">5</button>
+    <button onclick="handleNumber(6)">6</button>
+    <br>
+    <button onclick="handleNumber(7)">7</button>
+    <button onclick="handleNumber(8)">8</button>
+    <button onclick="handleNumber(9)">9</button>
+    <br>
+    <button onclick="handleOperator('+')">+</button>
+    <button onclick="handleOperator('-')">-</button>
+    <button onclick="handleOperator('*')">*</button>
+    <br>
+    <button onclick="handleOperator('/')">/</button>
+    <button onclick="clearResult()">Clear</button>
+    <button onclick="calculateResult()">=</button>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
